@@ -10,6 +10,7 @@ A simple music player for android.
   - Collapsing image with auto changing images (Interval can be customized in settings)
   - Sharing options
 
+
 Main screen             |  Lyrics download          | Settings
 :-------------------------:|:-------------------------:|:-------------------------:
 ![](https://i.imgur.com/33QXxRp.jpg)  |  ![](https://i.imgur.com/PmErbdD.jpg) | ![](https://i.imgur.com/IEHvEKe.jpg)
