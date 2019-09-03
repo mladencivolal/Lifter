@@ -1,6 +1,14 @@
 # Lifter
-A simple music player for android with changing images, music visualizer and lyrics download. 
+A simple music player for android.
+
 ![Lifter logo](https://i.imgur.com/qdQR0uU.png)
+
+**Features:**
+  - Player controls: Play, Pause, Seek, Shuffle, Repeat
+  - Visualizer for currently playing audio
+  - Lyrics download (pop up view)
+  - Collapsing image with auto changing images (Interval can be customized in settings)
+  - Sharing options
 
 Main screen             |  Lyrics download          | Settings
 :-------------------------:|:-------------------------:|:-------------------------:
