@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Lifter</string>
+    <string name="ok">OK</string>
+    <string name="must_select_song_first">You must select song first!</string>
+    <string name="you_must_enable_permissions">You must enable permissions in the setings.</string>
+    <string name="phone_state_storage_permissions_required">Application requires phone state and storage permissions.</string>
+    <string name="positive_button_OK">OK</string>
+    <string name="negative_button_CANCEL">CANCEL</string>
+    <string name="no_lyrics_found">No lyrics found.</string>
+    <string name="lifter_starting_text"># Lifter 2019 # Android final exam #</string>
+    <string name="lifter_creator">Mladen Lalović</string>
+    <string name="search_song">Search song</string>
+    <string name="set_interval_summary">Used for changing images during playback.</string>
+    <string name="set_interval_title">Set image change interval</string>
+    <string name="auto_image_switch_summary">Changes images in desired interval.</string>
+    <string name="auto_image_switch_title">Auto change images</string>
+    <string name="app_requests_perms_text">Application requires phone state and storage permissions.</string>
+    <string name="phone_storage_perms_granted">Phone state and storage permissions granted.</string>
+    <string name="some_perms_not_granted">Some permissions are not granted ask again.</string>
+    <string name="media_error_not_valid_progressive_playback">MEDIA ERROR NOT VALID FOR PROGRESSIVE PLAYBACK</string>
+    <string name="media_error_server_died">MEDIA ERROR SERVER DIED</string>
+    <string name="media_error_unknown">MEDIA ERROR UNKNOWN</string>
+
+    <string name="menu_sort_by">Sort by</string>
+    <string name="sort_order_entry_az">A-Z</string>
+    <string name="sort_order_entry_za">Z-A</string>
+    <string name="sort_order_entry_year">Year</string>
+    <string name="sort_order_entry_artist">Artist</string>
+    <string name="sort_order_entry_album">Album</string>
+    <string name="sort_order_entry_duration">Duration</string>
+    <string name="sort_order_entry_date">Date</string>
+    <string name="sort_order_entry_number_of_songs">Number of songs</string>
+    <string name="sort_order_entry_number_of_albums">Number of albums</string>
+
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="switch_preference"
+        android:summary="@string/auto_image_switch_summary"
+        android:title="@string/auto_image_switch_title" />
+    <ListPreference
+        android:defaultValue="10"
+        android:entries="@array/imageSwitchIntervals"
+        android:entryValues="@array/imageSwitchIntervalValues"
+        android:key="interval"
+        android:summary="@string/set_interval_summary"
+        android:title="@string/set_interval_title" />
+
+</PreferenceScreen>

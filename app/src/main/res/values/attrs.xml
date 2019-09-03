@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- repeat state -->
+    <attr name="repeat_state">
+        <enum name="off" value="0" />
+        <enum name="one" value="1" />
+        <enum name="all" value="2" />
+    </attr>
+
+    <!-- custom repeat button -->
+    <declare-styleable name="RepeatButton">
+        <attr name="repeat_state" />
+        <attr name="src_repeat_off" format="integer" />
+        <attr name="src_repeat_one" format="integer" />
+        <attr name="src_repeat_all" format="integer" />
+    </declare-styleable>
+
+    <!-- custom shuffle button -->
+    <declare-styleable name="ShuffleButton">
+        <attr name="shuffle_state" />
+        <attr name="src_shuffle_off" format="integer" />
+        <attr name="src_shuffle_on" format="integer" />
+
+    </declare-styleable>
+
+    <attr name="icon_color" format="color" />
+    <attr name="theme_icon" format="color" />
+    <attr name="card_color" format="color" />
+    <attr name="controls_panel_stroke" format="color" />
+
+    <declare-styleable name="WaveView">
+        <attr name="sidebarAccentColor" format="color|reference"/>
+        <attr name="sidebarLettersColor" format="color|reference"/>
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,100 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:orientation="vertical"
+    android:paddingBottom="6dp"
+    android:paddingLeft="8dp"
+    android:paddingTop="6dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/albumArt"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:padding="1dp"
+            android:src="@drawable/ic_headset_white_24dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/visualizer"
+            android:layout_toRightOf="@+id/albumArt"
+            android:orientation="vertical"
+            android:paddingLeft="12dp"
+            android:paddingTop="5dp">
+
+            <TextView
+                android:id="@+id/title"
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="marquee"
+                android:fontFamily="@font/raleway_medium"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:textColor="@color/primary_text"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/artist"
+                style="@style/TextAppearance.AppCompat.Widget.ActionMode.Subtitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:fontFamily="@font/raleway_medium"
+                android:paddingTop="3dp"
+                android:singleLine="true"
+                android:textColor="@color/primary_text"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/album"
+                style="@style/TextAppearance.AppCompat.Widget.ActionMode.Subtitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:fontFamily="@font/raleway_medium"
+                android:paddingTop="3dp"
+                android:singleLine="true"
+                android:textColor="@color/primary_text"
+                android:textSize="10sp" />
+
+        </LinearLayout>
+
+        <hr.lalovic.mladen.lifter.widgets.MusicVisualizer
+            android:id="@+id/visualizer"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="15dp"
+            android:layout_toLeftOf="@+id/song_duration"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/song_duration"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:fontFamily="sans-serif-condensed"
+            android:padding="1dp"
+            android:textColor="@color/primary_text"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
